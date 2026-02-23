@@ -67,7 +67,7 @@ sudo apt install build-essential pkg-config libasound2-dev
 ### 2 – Clone and build
 
 ```bash
-git clone https://github.com/yourname/lindalf.git
+git clone https://github.com/bellsohren/lindalf.git
 cd lindalf
 make
 ```
