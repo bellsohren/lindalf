@@ -1,0 +1,10 @@
+lindalf (1.0.0-1) unstable; urgency=low
+
+  * Initial release.
+  * ASCII wizard animation with ANSI 256-colour rendering at 24 FPS.
+  * Smoke particle system rising from wizard's pipe.
+  * ALSA WAV playback with real-time DSP: volume, LFO, reverb.
+  * Threaded architecture: animation, audio, input all separate.
+  * Keyboard-driven live parameter control.
+
+ -- Your Name <you@example.com>  Sun, 22 Feb 2026 12:00:00 +0000

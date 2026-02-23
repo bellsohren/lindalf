@@ -1,0 +1,22 @@
+Source: lindalf
+Section: misc
+Priority: optional
+Maintainer: Your Name <you@example.com>
+Build-Depends: debhelper-compat (= 13), libasound2-dev, pkg-config
+Standards-Version: 4.6.2
+Homepage: https://github.com/yourname/lindalf
+
+Package: lindalf
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libasound2
+Description: Terminal ASCII animation of a wizard smoking a pipe
+ lindalf renders a colourful ANSI-art wizard relaxing with a pipe
+ in your terminal at 24 FPS.  A smoke particle system rises from the
+ pipe, colours shift between animation frames, and a soft fade-in
+ curtain opens the scene.
+ .
+ Optionally plays a WAV music file through ALSA with real-time DSP:
+ volume control, LFO tremolo modulation, and feedback-delay reverb —
+ all adjustable live from the keyboard.
+ .
+ No copyrighted audio is included; supply your own with --music.
