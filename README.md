@@ -152,16 +152,6 @@ delay = mix × 0.5 s
 
 Higher `mix` increases both delay time and wet signal.
 
----
-
-## Building a Debian package
-
-```bash
-sudo apt install devscripts debhelper
-make deb
-# The .deb appears in the parent directory
-sudo dpkg -i ../lindalf_1.0.0_amd64.deb
-```
 
 ---
 
