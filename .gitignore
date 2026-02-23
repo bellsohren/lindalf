@@ -1,0 +1,9 @@
+*.o
+lindalf
+*.deb
+*.tar.gz
+debian/.debhelper/
+debian/lindalf/
+debian/files
+debian/*.log
+debian/*.substvars
