@@ -71,6 +71,7 @@ git clone https://github.com/bellsohren/lindalf.git
 cd lindalf
 make
 ```
+This was already uploaded, so its unnecessary.
 
 ### 3 – Run
 
