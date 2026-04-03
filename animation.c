@@ -56,7 +56,7 @@ static void rb_cat(const char *s)
     size_t l=strlen(s);
     if(rp+(int)l+1<RBUF){memcpy(rb+rp,s,l);rp+=(int)l;}
 }
-#define AT(r,c,...) rb_p("\033[%d;%dH" __VA_ARGS__,(r),(c))
+#define AT(r,c,...) do{ rb_p("\033[%d;%dH",(r),(c)); rb_p(__VA_ARGS__); }while(0)
 
 static void erase(int r0,int c0,int rows,int cols)
 {
@@ -100,10 +100,10 @@ static void pupdate(void)
     }
 }
 static const char *pch[4][5]={
-    {"o","o",".",". "," "},
+    {"o","o",".","."," "},
     {"O","o","o","."," "},
-    {"*","+",".",". "," "},
-    {"@","o",".", " "," "},
+    {"*","+",".","."," "},
+    {"@","o",".","."," "},
 };
 static void pdraw(void)
 {
