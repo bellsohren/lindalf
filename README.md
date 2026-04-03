@@ -1,22 +1,22 @@
 # lindalf
 
 ```
-        ✦ The Wizard's Reverie ✦
+*
+            -/   \-
+          -/      \-
+        | /  /\ .\ .|
+        | /  \/ .\..|
+       / |    |  o.|o\
+      ====================
+      ====================
+     \ \   -   -ooooo  / /
+     \ \    (o)  oO@   / /
+     \ \   . ==( o@    / /
+     \  \             /  /
+      \  \           /  /
+     ______\  /______
 
-            *   .   *
-          *   .   *
-               |
-              /|\
-             / | \
-            /  |  \
-           / * + * \
-          /___________\
-          |  o     o  |
-          |  ~~~~~~~  |
-          | (------) |====●
-          | ( WWWWW ) |
-          |  WWWWWWW  |
-          |___________|
+
 ```
 
 A terminal art program featuring an animated ASCII wizard relaxing with
